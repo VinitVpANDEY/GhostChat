@@ -6,7 +6,7 @@ This is a real-time anonymous group chat application where users can see the lis
 ## Features  
 - ✅ **Anonymous Messaging** – Users can send messages without revealing their identity.  
 - ✅ **Known Group Members, Unknown Senders** – Users can see who is in the group but not who sent which message.  
-- ✅ **Session-based Random Usernames** – A new username is assigned to each user for every session.  
+- ✅ **Session-based Identity** – A new random user id is assigned to each user for every session.
 - ✅ **Real-time Communication** – Built using WebSockets for instant messaging.  
 - ✅ **Lazy Loading Messages** – Loads messages dynamically for better performance.
   
