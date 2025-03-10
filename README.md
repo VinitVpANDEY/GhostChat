@@ -77,10 +77,15 @@ tsc -b
 Start the backend server using the compiled JavaScript files:
 
 ```bash
-node dist/app.js
+ node dist/API/apiServer.js
 ```
 The backend server should now be running at http://localhost:5000
 
+Start the websocket server using the compiled JavaScript files:
+
+```bash
+node dist/WebSocket/index.js
+```
 The websocket server should now be running at http://localhost:8080
 
 ### 3. Set Up the Frontend
