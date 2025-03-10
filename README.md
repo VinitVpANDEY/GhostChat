@@ -73,13 +73,14 @@ Run the TypeScript compiler to build the backend code:
 tsc -b
 ```
 
-#### 2.6 Start the Backend Server
+#### 2.6 Start the Server
 Start the backend server using the compiled JavaScript files:
 
 ```bash
  node dist/API/apiServer.js
 ```
 The backend server should now be running at http://localhost:5000
+
 
 Start the websocket server using the compiled JavaScript files:
 
